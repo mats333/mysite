@@ -1,0 +1,80 @@
+body {
+  color: #383e45;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 10px auto;
+}
+
+.section-title {
+  font-size: 200%;
+  text-align: center;
+  border-bottom: solid 1px #383e45;
+  margin-bottom: 80px;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+#header ul {
+  display: flex;
+  padding: 10px;
+}
+
+#header li {
+  padding-left: 30px;
+}
+
+.header-title {
+  width: 120px;
+}
+
+/*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+#mainvisual img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+
+/*-------------------------------------------
+about
+-------------------------------------------*/
+#about img {
+  width: 100px;
+  border-radius: 50%;
+}
+.about-content {
+  display: flex;
+}
+
+/*-------------------------------------------
+bicycle
+-------------------------------------------*/
+#bicycle img {
+  width: 270px;
+}
+.bicycle-content {
+  display: flex;
+  justify-content: center;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+#footer {
+  text-align: center;
+}
