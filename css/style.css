@@ -22,7 +22,7 @@ li {
   font-size: 250%;
   text-align: center;
   border-bottom: solid 1px #383e45;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   line-height: 1.5;
 }
 
@@ -38,8 +38,7 @@ li {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px 20px;
-  text-align: center;
+  align-items: center;
 }
 #header ul {
   display: flex;
